@@ -23,9 +23,9 @@ Notice that in this file the `one` function goes looking for the div by its `id`
 4. Add another class to `style.css`. Call it `.green`, and have it alter the `background-color` of an element to green.
 
 5. In your `classes.js` file, write a new function called two which finds the element with id 'two' and modifies its classList property. Remember to call it from `start`.
-Reload the browser. Did the second div change colour?
+Reload the browser. Did the second div change color? Yes.
 
-6. Pick a colour and follow the previous steps to make a third div change to the colour of your choice.
+6. Pick a color and follow the previous steps to make a third div change to the color of your choice.
 
 Notice that the fourth div in `index.html` has a class already: `invisible`. It's also not on the screen in the browser. There's no `id` attribute, so we can't find it using `getElementById`. To find things by class instead, we need to use `getElementsByClassName` (note the 's' in Elements). 
 
